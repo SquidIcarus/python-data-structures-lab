@@ -9,9 +9,8 @@ def manage_students():
     students = ['Berthany', 'Jankle', 'Carble']
     first_student = students[1]
     last_student = students[-1]
-    return(f"second studen: {first_student}, last student: {last_student}")
+    return (f"second studen: {first_student}, last student: {last_student}")
+
 
 # Call the function and print the result
 print('Exercise 1:', manage_students())
-
-
